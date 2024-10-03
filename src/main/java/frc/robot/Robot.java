@@ -108,7 +108,7 @@ public class Robot extends TimedRobot {
     // ishana_spark0.set(ishana_Controller.getLeftY());
     // ishana_spark1.set(ishana_Controller.getLeftY());
     
-    ishana_Drive.arcadeDrive(ishana_Controller.getLeftY(), ishana_Controller.getRightX());
+    ishana_Drive.arcadeDrive((ishana_Controller.getLeftY() * 0.8), (ishana_Controller.getRightX() * 0.8));
   }
 
   @Override
